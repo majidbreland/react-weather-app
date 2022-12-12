@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
 .App {
   text-align: center;
 }
@@ -35,4 +36,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title {
+  padding-top: 10px;
+  text-align: center;
+  font-weight:200;
+  font-size:9em;
+  margin-bottom:0px;
+}
+
+.info {
+  text-align: center;
+  font-weight:200;
+  margin-bottom: 0px;
+  padding-top:0px;
+}
+.info-2 {
+  text-align: center;
+  font-weight:200;
+  margin-bottom: 0px;
+}
+
+.weather {
+  font-size: 4em;
+  text-align: center;
+  font-weight:700;
+}
+
+.wind {
+  font-size: 2em;
+  text-align: center;
+  font-weight:700;
+}
+
+.degree-f {
+  font-size: .6em;
+  font-weight:200;
+}
+
+.mph {
+  font-size: .4em;
+  font-weight:200;
 }
